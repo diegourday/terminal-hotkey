@@ -1,0 +1,17 @@
+{
+  "name": "terminal-hotkey",
+  "version": "1.0.0",
+  "description": "Alt+Q focuses Windows Terminal or opens Ubuntu; no tray icon",
+  "private": true,
+  "scripts": {
+    "build": "bash scripts/windows.sh build",
+    "app:install": "bash scripts/windows.sh install",
+    "app:uninstall": "bash scripts/windows.sh uninstall",
+    "verify": "bash scripts/windows.sh verify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "packageManager": "pnpm@11.28.7"
+}
